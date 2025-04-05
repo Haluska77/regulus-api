@@ -8,6 +8,8 @@ export const registryMapper = new Map<string, string>([
   ['heatPumpInletTemperature', '__R11997_INT_-4.1d'],
   ['waterRunningStatusFromHeatPump', '__R12005.5_BOOL_i'],
   ['circulationRunningStatus', '__R10949.0_BOOL_i'],
+  ['zone1SummerMode', '__R15209.0_BOOL_i'],
+  ['zone2SummerMode', '__R18101.0_BOOL_i'],
   //heat pump
   ['hpServiceEnabled', '__R26396.0_BOOL_i'],
   ['hpStatus', '__R24074_STRING[20]_s'],

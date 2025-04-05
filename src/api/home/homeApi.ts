@@ -9,6 +9,8 @@ export class HomeApi extends AbstractApi<HomeResponseData> {
     console.log('Successfully fetched `/home` data');
     return {
       outdoorTemperature: getValueFromMap(schemaXmlMap, 'outdoorTemperature', registryErrors),
+      zone1SummerMode: getValueFromMap(schemaXmlMap, 'zone1SummerMode', registryErrors) !== '0',
+      zone2SummerMode: getValueFromMap(schemaXmlMap, 'zone2SummerMode', registryErrors) !== '0',
     };
   }
 }
