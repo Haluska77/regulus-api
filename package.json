@@ -1,6 +1,6 @@
 {
   "name": "regulus-api",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Regulus Rest API",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
